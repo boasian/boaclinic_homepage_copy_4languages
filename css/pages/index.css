@@ -28,19 +28,19 @@
 
 .desktop div:first-child {
   height: 650px;
-  background-image: url("/images/desktop_1.png?20210510");
+  background-image: url("../images/desktop_1.png?20210510");
   background-size: 1920px;
 }
 
 .desktop div:nth-child(2) {
   height: 1353px;
-  background-image: url("/images/desktop_2.png?20210510");
+  background-image: url("../images/desktop_2.png?20210510");
   background-size: 1920px;
 }
 
 .desktop div:last-child {
   height: 604px;
-  background-image: url("/images/desktop_3.png?20210510");
+  background-image: url("../images/desktop_3.png?20210510");
   background-size: 1920px;
 }
 

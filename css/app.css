@@ -165,43 +165,43 @@ table {
 @font-face {
   font-family: "SourceHanSansKR-Regular";
   font-weight: normal;
-  src: url("/fonts/SourceHanSansKR-Regular.otf");
+  src: url("../fonts/SourceHanSansKR-Regular.otf");
 }
 
 @font-face {
   font-family: "SourceHanSansKR-Medium";
   font-weight: 500;
-  src: url("/fonts/SourceHanSansKR-Medium.otf");
+  src: url("../fonts/SourceHanSansKR-Medium.otf");
 }
 
 @font-face {
   font-family: "SourceHanSansKR-Bold";
   font-weight: bold;
-  src: url("/fonts/SourceHanSansKR-Bold.otf");
+  src: url("../fonts/SourceHanSansKR-Bold.otf");
 }
 
 @font-face {
   font-family: "NotoSerif-Bold";
   font-weight: bold;
-  src: url("/fonts/NotoSerifKR-Bold.otf");
+  src: url("../fonts/NotoSerifKR-Bold.otf");
 }
 
 @font-face {
   font-family: "Gmarket-Light";
   font-weight: 300;
-  src: url("/fonts/GmarketSansLight.otf");
+  src: url("../fonts/GmarketSansLight.otf");
 }
 
 @font-face {
   font-family: "Gmarket-Medium";
   font-weight: 500;
-  src: url("/fonts/GmarketSansMedium.otf");
+  src: url("../fonts/GmarketSansMedium.otf");
 }
 
 @font-face {
   font-family: "AppleSDGothicNeo-Medium";
   font-weight: 500;
-  src: url("/fonts/AppleSDGothicNeoM.ttf");
+  src: url("../fonts/AppleSDGothicNeoM.ttf");
 }
 
 img {
@@ -1083,7 +1083,7 @@ em {
 
   #mission_wrap #mission_head #circle_wrap img {
     width: 88.5416vw;
-    content: url("/images/tablet/about/vision_circle.png");
+    content: url("../images/tablet/about/vision_circle.png");
     margin-bottom: 80px;
   }
 
@@ -1110,51 +1110,51 @@ em {
   }
 
   #contam-care-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item1 img {
-    content: url("/images/tablet/about/clean_mat.png");
+    content: url("../images/tablet/about/clean_mat.png");
   }
 
   #contam-care-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item2 img {
-    content: url("/images/tablet/about/clean_led.png");
+    content: url("../images/tablet/about/clean_led.png");
   }
 
   #contam-care-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item3 img {
-    content: url("/images/tablet/about/clean_air.png");
+    content: url("../images/tablet/about/clean_air.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(1) img {
-    content: url("/images/tablet/about/clean_supersonic.png") !important;
+    content: url("../images/tablet/about/clean_supersonic.png") !important;
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(2) img {
-    content: url("/images/tablet/about/clean_exclusive.png");
+    content: url("../images/tablet/about/clean_exclusive.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(3) img {
-    content: url("/images/tablet/about/clean_dryer.png");
+    content: url("../images/tablet/about/clean_dryer.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(4) img {
-    content: url("/images/tablet/about/clean_sterilizer.png");
+    content: url("../images/tablet/about/clean_sterilizer.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(5) img {
-    content: url("/images/tablet/about/clean_plasma.png");
+    content: url("../images/tablet/about/clean_plasma.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(6) img {
-    content: url("/images/tablet/about/clean_heat.png");
+    content: url("../images/tablet/about/clean_heat.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(7) img {
-    content: url("/images/tablet/about/clean_purifier.png");
+    content: url("../images/tablet/about/clean_purifier.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(8) img {
-    content: url("/images/tablet/about/clean_suction.png");
+    content: url("../images/tablet/about/clean_suction.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(9) img {
-    content: url("/images/tablet/about/clean_preventive.png");
+    content: url("../images/tablet/about/clean_preventive.png");
   }
 }
 
@@ -1220,18 +1220,18 @@ em {
   }
 
   #mission_wrap #mission_head .mission-head-title + p + div img {
-    content: url("/images/mobile/about/vision_no1.png");
+    content: url("../images/mobile/about/vision_no1.png");
     width: 80vw;
   }
 
   #mission_wrap #mission_head #circle_wrap img {
-    content: url("/images/mobile/about/vision_circle.png");
+    content: url("../images/mobile/about/vision_circle.png");
     width: 55.5555vw;
     margin-bottom: 60px;
   }
 
   #mission_wrap #mission_head #circle_wrap + #mission_head_image_wrap img {
-    content: url("/images/mobile/about/vision_no2.png");
+    content: url("../images/mobile/about/vision_no2.png");
     width: 80vw;
   }
 
@@ -1274,15 +1274,15 @@ em {
   }
 
   #contam-care-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item1 img {
-    content: url("/images/mobile/about/clean_mat.png");
+    content: url("../images/mobile/about/clean_mat.png");
   }
 
   #contam-care-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item2 img {
-    content: url("/images/mobile/about/clean_led.png");
+    content: url("../images/mobile/about/clean_led.png");
   }
 
   #contam-care-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item3 img {
-    content: url("/images/mobile/about/clean_air.png");
+    content: url("../images/mobile/about/clean_air.png");
   }
 
   #contam-care-wrap .medical-room-wrap .medical-room-wrap-title {
@@ -1291,39 +1291,39 @@ em {
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(1) img {
-    content: url("/images/mobile/about/clean_supersonic.png") !important;
+    content: url("../images/mobile/about/clean_supersonic.png") !important;
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(2) img {
-    content: url("/images/mobile/about/clean_exclusive.png");
+    content: url("../images/mobile/about/clean_exclusive.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(3) img {
-    content: url("/images/mobile/about/clean_dryer.png");
+    content: url("../images/mobile/about/clean_dryer.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(4) img {
-    content: url("/images/mobile/about/clean_sterilizer.png");
+    content: url("../images/mobile/about/clean_sterilizer.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(5) img {
-    content: url("/images/mobile/about/clean_plasma.png");
+    content: url("../images/mobile/about/clean_plasma.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(6) img {
-    content: url("/images/mobile/about/clean_heat.png");
+    content: url("../images/mobile/about/clean_heat.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(7) img {
-    content: url("/images/mobile/about/clean_purifier.png");
+    content: url("../images/mobile/about/clean_purifier.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(8) img {
-    content: url("/images/mobile/about/clean_suction.png");
+    content: url("../images/mobile/about/clean_suction.png");
   }
 
   #contam-care-wrap .medical-room-wrap .contam-care-grid-wrap .waiting-room-grid-wrap .grid-item:nth-child(9) img {
-    content: url("/images/mobile/about/clean_preventive.png");
+    content: url("../images/mobile/about/clean_preventive.png");
   }
 }
 
@@ -2159,7 +2159,7 @@ em {
   }
 
   #guide_implant_wrap .guide_implant_title_picture img {
-    content: url("/images/tablet/digital/digital_implant.png");
+    content: url("../images/tablet/digital/digital_implant.png");
     width: 92.18vw;
   }
 
@@ -2289,7 +2289,7 @@ em {
   }
 
   #guide_implant_wrap .guide_implant_title_picture img {
-    content: url("/images/mobile/digital/digital_implant.png");
+    content: url("../images/mobile/digital/digital_implant.png");
     width: 92.18vw;
   }
 
@@ -2342,7 +2342,7 @@ em {
   }
 
   #guide_making_wrap .making-section:nth-child(4) img {
-    content: url("/images/mobile/digital/digital_trial_surg.png");
+    content: url("../images/mobile/digital/digital_trial_surg.png");
   }
 
   #guide_making_wrap .making-section:nth-child(5) .making-section-picture:nth-child(2) {
@@ -2350,7 +2350,7 @@ em {
   }
 
   #guide_making_wrap .making-section:nth-child(6) img {
-    content: url("/images/mobile/digital/digital_guide_surgery.png");
+    content: url("../images/mobile/digital/digital_guide_surgery.png");
   }
 
   #guide_making_wrap .making-section {
@@ -2747,7 +2747,7 @@ em {
   }
 
   #digital_correction_wrap #digital_correction_head #digital_correction_right img {
-    content: url("/images/tablet/digital/digital_correction_doctor.png");
+    content: url("../images/tablet/digital/digital_correction_doctor.png");
     width: 92.18vw;
   }
 
@@ -2783,27 +2783,27 @@ em {
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(1) img {
-    content: url("/images/tablet/digital/digital_correction_vceph.png");
+    content: url("../images/tablet/digital/digital_correction_vceph.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(2) img {
-    content: url("/images/tablet/digital/digital_correction_vceph0.png");
+    content: url("../images/tablet/digital/digital_correction_vceph0.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(3) img {
-    content: url("/images/tablet/digital/digital_correction_3d.png");
+    content: url("../images/tablet/digital/digital_correction_3d.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(4) img {
-    content: url("/images/tablet/digital/digital_correction_3d0.png");
+    content: url("../images/tablet/digital/digital_correction_3d0.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(5) img {
-    content: url("/images/tablet/digital/digital_correction_transparency.png");
+    content: url("../images/tablet/digital/digital_correction_transparency.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(6) img {
-    content: url("/images/tablet/digital/digital_correction_transparency1.png");
+    content: url("../images/tablet/digital/digital_correction_transparency1.png");
     margin-top: 4.49vw;
   }
 }
@@ -2858,7 +2858,7 @@ em {
   }
 
   #digital_correction_wrap #digital_correction_head #digital_correction_right img {
-    content: url("/images/tablet/digital/digital_correction_doctor.png");
+    content: url("../images/tablet/digital/digital_correction_doctor.png");
     width: 92.18vw;
   }
 
@@ -2901,28 +2901,28 @@ em {
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(1) img {
-    content: url("/images/mobile/digital/digital_correction_vceph.png");
+    content: url("../images/mobile/digital/digital_correction_vceph.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(2) img {
-    content: url("/images/mobile/digital/digital_correction_vceph0.png");
+    content: url("../images/mobile/digital/digital_correction_vceph0.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(3) img {
-    content: url("/images/mobile/digital/digital_correction_3d.png");
+    content: url("../images/mobile/digital/digital_correction_3d.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(4) img {
-    content: url("/images/mobile/digital/digital_correction_3d0.png");
+    content: url("../images/mobile/digital/digital_correction_3d0.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(5) img {
-    content: url("/images/mobile/digital/digital_correction_transparency.png");
+    content: url("../images/mobile/digital/digital_correction_transparency.png");
   }
 
   #digital_correction_wrap #digital_correction_wrap #digital_correction_grid_wrap div:nth-child(6) img {
     margin-top: 16px;
-    content: url("/images/mobile/digital/digital_correction_transparency1.png");
+    content: url("../images/mobile/digital/digital_correction_transparency1.png");
   }
 }
 
@@ -3229,23 +3229,23 @@ em {
   }
 
   #lifetime_grid_wrap .tooth_care:nth-child(1) div:nth-child(2) img {
-    content: url("/images/tablet/prevent/life_cycle_care1.png");
+    content: url("../images/tablet/prevent/life_cycle_care1.png");
   }
 
   #lifetime_grid_wrap .tooth_care:nth-child(2) div:nth-child(2) img {
-    content: url("/images/tablet/prevent/life_cycle_care2.png");
+    content: url("../images/tablet/prevent/life_cycle_care2.png");
   }
 
   #lifetime_grid_wrap .tooth_care:nth-child(3) div:nth-child(2) img {
-    content: url("/images/tablet/prevent/life_cycle_care3.png");
+    content: url("../images/tablet/prevent/life_cycle_care3.png");
   }
 
   #lifetime_grid_wrap .tooth_care:nth-child(4) div:nth-child(2) img {
-    content: url("/images/tablet/prevent/life_cycle_care4.png");
+    content: url("../images/tablet/prevent/life_cycle_care4.png");
   }
 
   #lifetime_grid_wrap .tooth_care:nth-child(5) div:nth-child(2) img {
-    content: url("/images/tablet/prevent/life_cycle_care5.png");
+    content: url("../images/tablet/prevent/life_cycle_care5.png");
   }
 }
 
@@ -3309,23 +3309,23 @@ em {
   }
 
   #importance_wrap #lifetime_grid_wrap .tooth_care:nth-child(1) div:nth-child(2) img {
-    content: url("/images/mobile/prevent/life_cycle_care1.png");
+    content: url("../images/mobile/prevent/life_cycle_care1.png");
   }
 
   #importance_wrap #lifetime_grid_wrap .tooth_care:nth-child(2) div:nth-child(2) img {
-    content: url("/images/mobile/prevent/life_cycle_care2.png");
+    content: url("../images/mobile/prevent/life_cycle_care2.png");
   }
 
   #importance_wrap #lifetime_grid_wrap .tooth_care:nth-child(3) div:nth-child(2) img {
-    content: url("/images/mobile/prevent/life_cycle_care3.png");
+    content: url("../images/mobile/prevent/life_cycle_care3.png");
   }
 
   #importance_wrap #lifetime_grid_wrap .tooth_care:nth-child(4) div:nth-child(2) img {
-    content: url("/images/mobile/prevent/life_cycle_care4.png");
+    content: url("../images/mobile/prevent/life_cycle_care4.png");
   }
 
   #importance_wrap #lifetime_grid_wrap .tooth_care:nth-child(5) div:nth-child(2) img {
-    content: url("/images/mobile/prevent/life_cycle_care5.png");
+    content: url("../images/mobile/prevent/life_cycle_care5.png");
   }
 }
 
@@ -3384,19 +3384,19 @@ em {
   }
 
   #airflow_wrap .airflow-grid-wrap img:nth-child(1) {
-    content: url("/images/tablet/prevent/airflow_airflow1.png");
+    content: url("../images/tablet/prevent/airflow_airflow1.png");
   }
 
   #airflow_wrap .airflow-grid-wrap img:nth-child(2) {
-    content: url("/images/tablet/prevent/airflow_airflow2.png");
+    content: url("../images/tablet/prevent/airflow_airflow2.png");
   }
 
   #perioflow_wrap .airflow-grid-wrap img:nth-child(1) {
-    content: url("/images/tablet/prevent/airflow_perioflow1.png");
+    content: url("../images/tablet/prevent/airflow_perioflow1.png");
   }
 
   #perioflow_wrap .airflow-grid-wrap img:nth-child(2) {
-    content: url("/images/tablet/prevent/airflow_perioflow2.png");
+    content: url("../images/tablet/prevent/airflow_perioflow2.png");
   }
 }
 
@@ -3426,16 +3426,16 @@ em {
   }
 
   #airflow_wrap .airflow-grid-wrap img:first-child {
-    content: url("/images/mobile/prevent/airflow_airflow1.png");
+    content: url("../images/mobile/prevent/airflow_airflow1.png");
     margin-bottom: 16px;
   }
 
   #airflow_wrap .airflow-grid-wrap img:nth-child(2) {
-    content: url("/images/mobile/prevent/airflow_airflow2.png");
+    content: url("../images/mobile/prevent/airflow_airflow2.png");
   }
 
   #perioflow_wrap .airflow-grid-wrap img:first-child {
-    content: url("/images/mobile/prevent/airflow_perioflow1.png");
+    content: url("../images/mobile/prevent/airflow_perioflow1.png");
     margin-bottom: 16px;
   }
 }
@@ -3589,43 +3589,43 @@ em {
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(1) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval1.png");
+    content: url("../images/mobile/prevent/prevent_program_oval1.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(2) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval2.png");
+    content: url("../images/mobile/prevent/prevent_program_oval2.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(3) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval3.png");
+    content: url("../images/mobile/prevent/prevent_program_oval3.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(4) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval4.png");
+    content: url("../images/mobile/prevent/prevent_program_oval4.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(5) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval5.png");
+    content: url("../images/mobile/prevent/prevent_program_oval5.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(6) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval6.png");
+    content: url("../images/mobile/prevent/prevent_program_oval6.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(7) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval7.png");
+    content: url("../images/mobile/prevent/prevent_program_oval7.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(8) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval8.png");
+    content: url("../images/mobile/prevent/prevent_program_oval8.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(9) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval9.png");
+    content: url("../images/mobile/prevent/prevent_program_oval9.png");
   }
 
   #program_wrap #program_grid_wrap .program-grid-item:nth-child(10) div img {
-    content: url("/images/mobile/prevent/prevent_program_oval10.png");
+    content: url("../images/mobile/prevent/prevent_program_oval10.png");
   }
 }
 
@@ -3752,7 +3752,7 @@ em {
   }
 
   #insur_implant_wrap div:nth-child(3) img {
-    content: url("/images/mobile/senior/insur_implant.png");
+    content: url("../images/mobile/senior/insur_implant.png");
   }
 
   #insur_implant_wrap #insur_implant_advantage {
@@ -3931,51 +3931,51 @@ em {
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(1) img {
-    content: url("/images/tablet/senior/tooth_correction_1.png");
+    content: url("../images/tablet/senior/tooth_correction_1.png");
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(2) img {
-    content: url("/images/tablet/senior/tooth_correction_2.png");
+    content: url("../images/tablet/senior/tooth_correction_2.png");
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(3) img {
-    content: url("/images/tablet/senior/tooth_correction_3.png");
+    content: url("../images/tablet/senior/tooth_correction_3.png");
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(4) img {
-    content: url("/images/tablet/senior/tooth_correction_4.png");
+    content: url("../images/tablet/senior/tooth_correction_4.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(1) img {
-    content: url("/images/tablet/senior/tooth_correction_5.png");
+    content: url("../images/tablet/senior/tooth_correction_5.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(2) img {
-    content: url("/images/tablet/senior/tooth_correction_6.png");
+    content: url("../images/tablet/senior/tooth_correction_6.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(3) img {
-    content: url("/images/tablet/senior/tooth_correction_7.png");
+    content: url("../images/tablet/senior/tooth_correction_7.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(4) img {
-    content: url("/images/tablet/senior/tooth_correction_8.png");
+    content: url("../images/tablet/senior/tooth_correction_8.png");
   }
 
   #tooth_correction_wrap #third_grid_wrap div:nth-child(1) img {
-    content: url("/images/tablet/senior/tooth_correction_9.png");
+    content: url("../images/tablet/senior/tooth_correction_9.png");
   }
 
   #tooth_correction_wrap #third_grid_wrap div:nth-child(2) img {
-    content: url("/images/tablet/senior/tooth_correction_10.png");
+    content: url("../images/tablet/senior/tooth_correction_10.png");
   }
 
   #tooth_correction_wrap #fourth_grid_wrap div:nth-child(1) img {
-    content: url("/images/tablet/senior/tooth_correction_11.png");
+    content: url("../images/tablet/senior/tooth_correction_11.png");
   }
 
   #tooth_correction_wrap #fourth_grid_wrap div:nth-child(2) img {
-    content: url("/images/tablet/senior/tooth_correction_12.png");
+    content: url("../images/tablet/senior/tooth_correction_12.png");
   }
 }
 
@@ -4064,51 +4064,51 @@ em {
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(1) img {
-    content: url("/images/mobile/senior/tooth_correction_1.png");
+    content: url("../images/mobile/senior/tooth_correction_1.png");
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(2) img {
-    content: url("/images/mobile/senior/tooth_correction_2.png");
+    content: url("../images/mobile/senior/tooth_correction_2.png");
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(3) img {
-    content: url("/images/mobile/senior/tooth_correction_3.png");
+    content: url("../images/mobile/senior/tooth_correction_3.png");
   }
 
   #tooth_correction_wrap #first_grid_wrap div:nth-child(4) img {
-    content: url("/images/mobile/senior/tooth_correction_4.png");
+    content: url("../images/mobile/senior/tooth_correction_4.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(1) img {
-    content: url("/images/mobile/senior/tooth_correction_5.png");
+    content: url("../images/mobile/senior/tooth_correction_5.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(2) img {
-    content: url("/images/mobile/senior/tooth_correction_6.png");
+    content: url("../images/mobile/senior/tooth_correction_6.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(3) img {
-    content: url("/images/mobile/senior/tooth_correction_7.png");
+    content: url("../images/mobile/senior/tooth_correction_7.png");
   }
 
   #tooth_correction_wrap #second_grid_wrap div:nth-child(4) img {
-    content: url("/images/mobile/senior/tooth_correction_8.png");
+    content: url("../images/mobile/senior/tooth_correction_8.png");
   }
 
   #tooth_correction_wrap #third_grid_wrap div:nth-child(1) img {
-    content: url("/images/mobile/senior/tooth_correction_9.png");
+    content: url("../images/mobile/senior/tooth_correction_9.png");
   }
 
   #tooth_correction_wrap #third_grid_wrap div:nth-child(2) img {
-    content: url("/images/mobile/senior/tooth_correction_10.png");
+    content: url("../images/mobile/senior/tooth_correction_10.png");
   }
 
   #tooth_correction_wrap #fourth_grid_wrap div:nth-child(1) img {
-    content: url("/images/mobile/senior/tooth_correction_11.png");
+    content: url("../images/mobile/senior/tooth_correction_11.png");
   }
 
   #tooth_correction_wrap #fourth_grid_wrap div:nth-child(2) img {
-    content: url("/images/mobile/senior/tooth_correction_12.png");
+    content: url("../images/mobile/senior/tooth_correction_12.png");
   }
 }
 
@@ -4561,7 +4561,7 @@ em {
   }
 
   #toothcare_program_wrap #toothcare-program-table-wrap #toothcare-program-table td:last-child img {
-    content: url("/images/mobile/senior/senior_program_diagnose4.png");
+    content: url("../images/mobile/senior/senior_program_diagnose4.png");
   }
 
   #toothcare_program_wrap #toothcare-program-table-wrap #toothcare-program-table td img {
@@ -4994,19 +4994,19 @@ em {
   }
 
   #main_container #quick_menu_wrap #quick_menu .quick-menu-list:nth-child(1) img {
-    content: url("/images/tablet/main/quickmenu_aboutus.png");
+    content: url("../images/tablet/main/quickmenu_aboutus.png");
   }
 
   #main_container #quick_menu_wrap #quick_menu .quick-menu-list:nth-child(2) img {
-    content: url("/images/tablet/main/quickmenu_digital.png");
+    content: url("../images/tablet/main/quickmenu_digital.png");
   }
 
   #main_container #quick_menu_wrap #quick_menu .quick-menu-list:nth-child(3) img {
-    content: url("/images/tablet/main/quickmenu_lifetime.png");
+    content: url("../images/tablet/main/quickmenu_lifetime.png");
   }
 
   #main_container #quick_menu_wrap #quick_menu .quick-menu-list:nth-child(4) img {
-    content: url("/images/tablet/main/quickmenu_senior_implant.png");
+    content: url("../images/tablet/main/quickmenu_senior_implant.png");
   }
 
   #main_container #quick_menu_wrap #quick_menu .quick-menu-list {
@@ -5200,19 +5200,19 @@ em {
   }
 
   #main_container #quick_menu_wrap .quick-menu-list:nth-child(1) img {
-    content: url("/images/mobile/main/quickmenu_aboutus@2x.png") !important;
+    content: url("../images/mobile/main/quickmenu_aboutus@2x.png") !important;
   }
 
   #main_container #quick_menu_wrap .quick-menu-list:nth-child(2) img {
-    content: url("/images/mobile/main/quickmenu_digital@2x.png") !important;
+    content: url("../images/mobile/main/quickmenu_digital@2x.png") !important;
   }
 
   #main_container #quick_menu_wrap .quick-menu-list:nth-child(3) img {
-    content: url("/images/mobile/main/quickmenu_lifetime@2x.png") !important;
+    content: url("../images/mobile/main/quickmenu_lifetime@2x.png") !important;
   }
 
   #main_container #quick_menu_wrap .quick-menu-list:nth-child(4) img {
-    content: url("/images/mobile/main/quickmenu_senior_implant@2x.png") !important;
+    content: url("../images/mobile/main/quickmenu_senior_implant@2x.png") !important;
   }
 
   #main_container #direction_wrap {
@@ -5345,23 +5345,23 @@ em {
   }
 
   #clinic_wrap .clinic-grid-mobile .clinic_grid_half:nth-child(1) div:nth-child(1) img {
-    content: url("/images/mobile/main/main_digital.png") !important;
+    content: url("../images/mobile/main/main_digital.png") !important;
   }
 
   #clinic_wrap .clinic-grid-mobile .clinic_grid_half:nth-child(1) div:nth-child(2) img {
-    content: url("/images/mobile/main/main_3dscanner.png") !important;
+    content: url("../images/mobile/main/main_3dscanner.png") !important;
   }
 
   #clinic_wrap .clinic-grid-mobile .clinic_grid_half:nth-child(2) div:nth-child(1) img {
-    content: url("/images/mobile/main/main_digital_implant.png") !important;
+    content: url("../images/mobile/main/main_digital_implant.png") !important;
   }
 
   #clinic_wrap .clinic-grid-mobile .clinic_grid_half:nth-child(2) div:nth-child(2) img {
-    content: url("/images/mobile/main/main_prevent_program.png") !important;
+    content: url("../images/mobile/main/main_prevent_program.png") !important;
   }
 
   #clinic_wrap .clinic-grid-mobile .clinic_grid_half:nth-child(3) div:nth-child(1) img {
-    content: url("/images/mobile/main/main_virus_check.png") !important;
+    content: url("../images/mobile/main/main_virus_check.png") !important;
   }
 }
 
