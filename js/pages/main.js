@@ -32,18 +32,33 @@ var marker = new naver.maps.Marker({
 const popupContainer = document.querySelector(".popup-container");
 const popupWrap = document.querySelector(".popup-wrap");
 const closeButton = document.querySelector(".close-button");
+const popupHideTodayCheckbox = document.querySelector(".popup-hide-today-checkbox");
+const popupCloseText = document.querySelector(".popup-close-text");
 
-popupContainer.addEventListener("click", () => {
-    popupContainer.style.display = "none";
-});
+const POPUP_HIDE_KEY = "boaEventPopupHideUntil";
 
-closeButton.addEventListener("click", () => {
+function closePopup() {
+    if (popupHideTodayCheckbox && popupHideTodayCheckbox.checked) {
+        localStorage.setItem(POPUP_HIDE_KEY, new Date().toDateString());
+    }
     popupContainer.style.display = "none";
-});
+}
+
+if (localStorage.getItem(POPUP_HIDE_KEY) === new Date().toDateString()) {
+    popupContainer.style.display = "none";
+}
+
+popupContainer.addEventListener("click", closePopup);
+
+closeButton.addEventListener("click", closePopup);
+
+if (popupCloseText) {
+    popupCloseText.addEventListener("click", closePopup);
+}
 
 window.onkeydown = (e) => {
     if (e.keyCode === 27) {
-        popupContainer.style.display = "none";
+        closePopup();
     }
 };
 
