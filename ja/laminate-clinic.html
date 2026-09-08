@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="歯を保存するBOAデンタルクリニックのラミネート（ポーセレンベニア）" name="description"/>
+<meta content="telephone=no, address=no, email=no" name="format-detection"/>
+<meta content="https://boaclinic.com//images/desktop/og_img.png" property="og:image"/>
+<title>BOAデンタルクリニック - ラミネートクリニック</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"/>
+<!-- script -->
+<!-- Styles -->
+<link href="../css/app.css?id=4d81c78e930463a09a1e" rel="stylesheet"/>
+<link href="../css/pages/index.css?id=37fba1065248acc0fc79" rel="stylesheet"/>
+
+
+<style id="lang-switcher-style">
+.lang-switcher{position:fixed;top:14px;right:14px;z-index:99999;display:flex;gap:9px;align-items:center;}
+.lang-switcher a.lang-flag{width:44px;height:44px;line-height:0;text-decoration:none;
+display:block;border-radius:50%;overflow:hidden;background:#fff;
+border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.28);opacity:.55;
+transition:opacity .15s ease,transform .15s ease,box-shadow .15s ease,border-color .15s ease;}
+.lang-switcher a.lang-flag svg{display:block;width:100%;height:100%;}
+.lang-switcher a.lang-flag:hover{opacity:1;transform:scale(1.1);}
+.lang-switcher a.lang-flag.active{opacity:1;border-color:#333;box-shadow:0 2px 10px rgba(0,0,0,.4);}
+@media (max-width:767px){
+  .lang-switcher{top:auto;bottom:auto;left:0;right:0;top:74px;justify-content:center;gap:6px;background:rgba(255,255,255,.9);padding:6px 0;}
+  .lang-switcher a.lang-flag{width:30px;height:30px;border-width:1.5px;}
+}
+#hanja-name{font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular",sans-serif;
+font-weight:bold;font-size:26px;color:#0F4E9C;letter-spacing:1px;text-align:center;margin:2px 0 0;line-height:1.1;white-space:nowrap;}
+@media (max-width:767px){#hanja-name{font-size:16px;letter-spacing:0.5px;}}
+</style>
+
+<style id="naver-btn-i18n-style">
+#floating_menu_wrap a.naver-i18n-wrap{position:relative;display:inline-block;}
+#floating_menu_wrap a.naver-i18n-wrap .naver-i18n-label{
+position:absolute;left:50%;top:42%;transform:translateX(-50%);width:88%;
+background:#00c73c;color:#fff;font-weight:bold;font-size:8px;letter-spacing:.2px;
+text-align:center;border-radius:3px;line-height:1.6;padding:2px 0;pointer-events:none;
+font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular",sans-serif;}
+@media (max-width:786px){
+#floating_menu_wrap a.naver-i18n-wrap .naver-i18n-label{font-size:6px;}
+}
+</style>
+
+<!-- ============================================================
+     Laminate Clinic page-specific styles (draft / working copy).
+     Layout reproduces "보아치과 라미네이트 영문.pdf" (6-page deck);
+     photos extracted from that PDF -> images/desktop/laminate/.
+     Move into css/app.css or css/pages/laminate-clinic.css when finalized.
+     ============================================================ -->
+<!-- Aligned to the existing site layout: fills .container (max 1200 + 3.9vw gutters),
+     SourceHanSansKR type, site blue #0f4f9d / mint #15a78c, flat square corners,
+     40px section titles and the site's vertical rhythm. Slide design preserved. -->
+<style id="laminate-clinic-style">
+#laminate_wrap{--lam-blue:#0f4f9d;--lam-mint:#15a78c;--lam-ink:#333333;--lam-sub:#555b61;
+  width:100%;color:var(--lam-ink);line-height:1.6;
+  font-family:"SourceHanSansKR-Regular","Malgun Gothic",sans-serif;}
+#laminate_wrap b,#laminate_wrap strong,#laminate_wrap h1,#laminate_wrap h2,#laminate_wrap h3{
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-slide{margin:0 0 90px;}
+#laminate_wrap .lam-slide:last-child{margin-bottom:20px;}
+#laminate_wrap h2.lam-title{font-size:40px;line-height:1.25;color:#333;margin:0 0 10px;}
+#laminate_wrap h2.lam-title.blue{color:var(--lam-blue);}
+#laminate_wrap .lam-subhead{font-size:20px;font-weight:bold;color:#333;line-height:1.4;margin:0 0 30px;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;}
+
+/* ---- Page hero: the site #banner reused with the PDF p.1 cover design ---- */
+#banner.lam-banner{position:relative;overflow:hidden;
+  background-position:center;background-size:cover;
+  display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;}
+#banner.lam-banner::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(20,90,150,.08) 0%,rgba(15,79,157,.26) 42%,rgba(15,79,157,.82) 100%);}
+#banner.lam-banner .lam-banner-kicker{position:absolute;top:84px;left:50%;transform:translateX(-50%);z-index:2;
+  width:100%;max-width:1200px;box-sizing:border-box;padding:0 30px;
+  color:#fff;letter-spacing:1px;font-size:15px;text-shadow:0 1px 6px rgba(0,0,0,.35);
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#banner.lam-banner .lam-banner-body{position:relative;z-index:2;
+  width:100%;max-width:1200px;margin:0 auto;box-sizing:border-box;padding:0 30px 34px;color:#fff;}
+#banner.lam-banner .lam-banner-body .tag{font-size:clamp(15px,2vw,20px);opacity:.96;text-shadow:0 1px 8px rgba(0,0,0,.45);
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#banner.lam-banner .lam-banner-body h1{font-size:clamp(32px,6vw,56px);line-height:1.05;margin:8px 0 12px;color:#fff;
+  text-shadow:0 2px 16px rgba(0,0,0,.4);
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#banner.lam-banner .lam-banner-body .tags{display:flex;gap:10px;flex-wrap:wrap;
+  font-size:clamp(13px,1.7vw,17px);letter-spacing:.3px;text-shadow:0 1px 8px rgba(0,0,0,.45);}
+#banner.lam-banner .lam-banner-body .tags span{font-weight:bold;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;}
+#banner.lam-banner .lam-banner-body .tags span:not(:last-child)::after{content:"|";margin-left:10px;opacity:.6;font-weight:normal;}
+@media (max-width:480px){
+  #banner.lam-banner .lam-banner-kicker{top:58px;padding:0 16px;font-size:11px;}
+  #banner.lam-banner .lam-banner-body{padding:0 16px 14px;}
+  #banner.lam-banner .lam-banner-body .tag{font-size:12px;}
+  #banner.lam-banner .lam-banner-body h1{font-size:24px;margin:4px 0 8px;}
+  #banner.lam-banner .lam-banner-body .tags{font-size:11px;}
+}
+
+/* ---- Slide 2 : BOA PHILOSOPHY ---- */
+#laminate_wrap .lam-philo{display:grid;grid-template-columns:1.05fr .95fr;overflow:hidden;border:1px solid #e6e6e6;}
+#laminate_wrap .lam-philo-main{padding:36px 34px 40px;background:#fff;}
+#laminate_wrap .lam-philo-main h2{font-size:clamp(30px,4.4vw,44px);color:#222;line-height:1.1;margin:0 0 22px;}
+#laminate_wrap .lam-collage{display:grid;grid-template-columns:1fr 1.6fr;gap:8px;margin-bottom:28px;}
+#laminate_wrap .lam-collage img{width:100%;height:100%;object-fit:cover;display:block;background:#eef2f5;aspect-ratio:3/2;}
+#laminate_wrap .lam-collage .c3,#laminate_wrap .lam-collage .c4{aspect-ratio:16/10;}
+#laminate_wrap .lam-philo-main .essence{font-size:20px;color:#222;margin:0 0 10px;}
+#laminate_wrap .lam-philo-main .essence-sub{font-size:clamp(17px,2.2vw,22px);color:var(--lam-blue);margin:0 0 14px;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-philo-main .essence-body{font-size:16px;color:var(--lam-sub);line-height:1.85;margin:0;}
+#laminate_wrap .lam-philo-side{position:relative;padding:38px 32px;color:#fff;background:#3a3d42 center/cover no-repeat;}
+#laminate_wrap .lam-philo-side::before{content:"";position:absolute;inset:0;background:rgba(36,38,42,.74);}
+#laminate_wrap .lam-pnum{position:relative;z-index:1;display:grid;grid-template-columns:50px 1fr;gap:8px 14px;margin-bottom:28px;}
+#laminate_wrap .lam-pnum:last-child{margin-bottom:0;}
+#laminate_wrap .lam-pnum .pn{font-size:22px;opacity:.9;}
+#laminate_wrap .lam-pnum h3{grid-column:2;font-size:clamp(17px,2.1vw,20px);margin:2px 0 8px;line-height:1.3;}
+#laminate_wrap .lam-pnum p{grid-column:2;font-size:14px;line-height:1.8;color:#e0e3e6;margin:0;}
+
+/* ---- Slide 3 : MEDICAL SYSTEM ---- */
+#laminate_wrap .lam-med-rows{display:grid;gap:16px;margin:8px 0 34px;}
+#laminate_wrap .lam-med-row{display:grid;grid-template-columns:220px 1fr;gap:16px;align-items:baseline;}
+#laminate_wrap .lam-med-row .k{font-size:19px;color:var(--lam-blue);
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-med-row .v{font-size:17px;color:#333;line-height:1.6;}
+#laminate_wrap .lam-med-photo{position:relative;overflow:hidden;border-top:3px solid var(--lam-blue);}
+#laminate_wrap .lam-med-photo img{width:100%;display:block;filter:saturate(.72) brightness(1.05);}
+#laminate_wrap .lam-med-photo .cap{position:absolute;inset:0;padding:5% 6% 5% 40%;
+  background:linear-gradient(90deg,rgba(255,255,255,0) 20%,rgba(255,255,255,.80) 42%,rgba(255,255,255,.92) 100%);
+  display:flex;flex-direction:column;justify-content:center;}
+#laminate_wrap .lam-med-photo .cap h3{font-size:clamp(16px,2.1vw,23px);color:#222;margin:0 0 12px;line-height:1.35;}
+#laminate_wrap .lam-med-photo .cap p{font-size:clamp(12px,1.5vw,15px);color:#3a4046;line-height:1.75;margin:0;}
+#laminate_wrap .lam-doctors{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:30px 0 0;}
+#laminate_wrap .lam-doc{border:1px solid #e6e6e6;overflow:hidden;text-align:center;}
+#laminate_wrap .lam-doc img{width:100%;aspect-ratio:6/5;object-fit:cover;object-position:top center;display:block;background:#fff;}
+#laminate_wrap .lam-doc .lam-doc-name{font-size:15px;color:#222;margin:12px 0 2px;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-doc .lam-doc-role{font-size:12.5px;color:var(--lam-blue);margin:0 0 14px;}
+
+/* ---- Slide 4 : PORCELAIN VENEER TECHNOLOGY ---- */
+#laminate_wrap .lam-tech{background:#22262b;overflow:hidden;color:#fff;}
+#laminate_wrap .lam-tech-hero{position:relative;}
+#laminate_wrap .lam-tech-hero img{width:100%;display:block;max-height:480px;object-fit:cover;object-position:center 35%;}
+#laminate_wrap .lam-tech-hero h2{position:absolute;top:24px;left:28px;right:28px;margin:0;
+  font-size:clamp(22px,4vw,38px);letter-spacing:1px;color:#f2f4f6;text-shadow:0 2px 14px rgba(0,0,0,.55);}
+#laminate_wrap .lam-tech-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:36px 30px 42px;}
+#laminate_wrap .lam-tech-item{text-align:center;}
+#laminate_wrap .lam-tech-thumb{width:132px;height:132px;border-radius:50%;object-fit:cover;margin:0 auto 16px;
+  border:3px solid rgba(255,255,255,.16);display:block;background:#111;}
+#laminate_wrap .lam-tech-item h3{font-size:16px;margin:0 0 8px;line-height:1.35;}
+#laminate_wrap .lam-tech-item p{font-size:13px;line-height:1.75;color:#c7ccd1;margin:0;}
+#laminate_wrap .lam-credit{margin:0;padding:0 30px 30px;font-size:12px;color:#9aa0a6;text-align:center;}
+
+/* ---- Slide 5 : EXPRESS JOURNEY ---- */
+#laminate_wrap .lam-journey{background:#f7fafc;border:1px solid #e6eef2;padding:36px 32px 40px;}
+#laminate_wrap .lam-journey h2,#laminate_wrap .lam-journey .lam-subhead{text-align:right;}
+#laminate_wrap .lam-timeline{display:grid;gap:0;margin:10px 0 34px;border-left:2px solid #cfe0ec;padding-left:26px;}
+#laminate_wrap .lam-day{position:relative;padding:16px 0;}
+#laminate_wrap .lam-day::before{content:"";position:absolute;left:-33px;top:22px;width:12px;height:12px;border-radius:50%;
+  background:var(--lam-blue);box-shadow:0 0 0 4px #f7fafc;}
+#laminate_wrap .lam-day .d{font-size:18px;color:var(--lam-blue);margin-right:10px;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-day .h{font-size:18px;color:#20242a;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-day p{font-size:14px;color:var(--lam-sub);line-height:1.8;margin:6px 0 0;}
+#laminate_wrap .lam-2visits{margin:0 0 24px;}
+#laminate_wrap .lam-2visits h3{font-size:clamp(19px,2.4vw,24px);margin:0 0 4px;}
+#laminate_wrap .lam-2visits .s{color:var(--lam-blue);font-size:15px;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-2visits p{font-size:14px;color:var(--lam-sub);line-height:1.85;margin:8px 0 0;}
+#laminate_wrap .lam-warranty{background:var(--lam-blue);color:#fff;padding:30px 28px;}
+#laminate_wrap .lam-warranty h3{color:#fff;font-size:clamp(18px,2.4vw,23px);margin:0 0 6px;}
+#laminate_wrap .lam-warranty .s{color:#bcd7ef;font-size:14.5px;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-warranty p{color:#e8f1fa;font-size:14px;line-height:1.9;margin:10px 0 0;}
+
+/* ---- CTA (buttons echo site blue) ---- */
+#laminate_wrap .lam-cta{text-align:center;padding:0;}
+#laminate_wrap .lam-cta a{display:inline-block;margin:6px;padding:15px 34px;
+  font-size:15px;text-decoration:none;
+  font-family:"SourceHanSansKR-Bold","SourceHanSansKR-Regular","Malgun Gothic",sans-serif;font-weight:bold;}
+#laminate_wrap .lam-cta a.primary{background:var(--lam-blue);color:#fff;}
+#laminate_wrap .lam-cta a.ghost{border:1px solid var(--lam-blue);color:var(--lam-blue);}
+
+@media (max-width:900px){
+  #laminate_wrap .lam-philo{grid-template-columns:1fr;}
+  #laminate_wrap .lam-med-photo .cap{padding:6% 7%;background:linear-gradient(180deg,rgba(255,255,255,.35) 0%,rgba(255,255,255,.92) 55%);}
+  #laminate_wrap .lam-tech-grid{grid-template-columns:1fr 1fr;gap:26px;}
+}
+@media (max-width:767px){
+  #laminate_wrap .lam-slide{margin-bottom:56px;}
+  #laminate_wrap h2.lam-title{font-size:28px;}
+  #laminate_wrap .lam-subhead{font-size:17px;}
+  #laminate_wrap .lam-med-row{grid-template-columns:1fr;gap:2px;}
+  #laminate_wrap .lam-collage{grid-template-columns:1fr 1fr;}
+  #laminate_wrap .lam-doctors{grid-template-columns:1fr 1fr;}
+  #laminate_wrap .lam-tech-grid{grid-template-columns:1fr;}
+  #laminate_wrap .lam-journey h2,#laminate_wrap .lam-journey .lam-subhead{text-align:left;}
+  #laminate_wrap .lam-med-photo{border:1px solid #e6e6e6;}
+  #laminate_wrap .lam-med-photo .cap{position:static;padding:18px 18px 20px;background:#f5f9fc;}
+  #laminate_wrap .lam-med-photo .cap h3{font-size:16px;}
+  #laminate_wrap .lam-med-photo .cap p{font-size:13px;}
+  #laminate_wrap .lam-tech-hero h2{position:static;padding:20px 20px 0;text-shadow:none;color:#eef1f3;}
+  #laminate_wrap .lam-tech-hero img{max-height:300px;}
+}
+</style>
+</head>
+<body><div class="lang-switcher" id="langSwitcher"><a class="lang-flag" data-lang="ko" href="../laminate-clinic.html" title="한국어"><svg height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 20 20" width="100%">
+<g transform="rotate(-75 10 10)">
+<circle cx="10" cy="10" fill="#0047a0" r="9.2"></circle>
+<path d="M10,0.8 A9.2,9.2 0 0,1 10,19.2 Z" fill="#cd2e3a"></path>
+<circle cx="10" cy="5.4" fill="#cd2e3a" r="4.6"></circle>
+<circle cx="10" cy="14.6" fill="#0047a0" r="4.6"></circle>
+</g>
+</svg></a><a class="lang-flag" data-lang="en" href="../en/laminate-clinic.html" title="English"><svg height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 30 20" width="100%"><rect fill="#fff" height="20" width="30"></rect>
+<g fill="#b22234">
+<rect height="1.54" width="30" y="0"></rect><rect height="1.54" width="30" y="3.08"></rect><rect height="1.54" width="30" y="6.16"></rect>
+<rect height="1.54" width="30" y="9.24"></rect><rect height="1.54" width="30" y="12.32"></rect><rect height="1.54" width="30" y="15.4"></rect><rect height="1.54" width="30" y="18.48"></rect>
+</g>
+<rect fill="#3c3b6e" height="10.78" width="12"></rect>
+<g fill="#fff">
+<circle cx="1.5" cy="1.3" r="0.5"></circle><circle cx="4" cy="1.3" r="0.5"></circle><circle cx="6.5" cy="1.3" r="0.5"></circle><circle cx="9" cy="1.3" r="0.5"></circle><circle cx="11" cy="1.3" r="0.5"></circle>
+<circle cx="2.7" cy="2.8" r="0.5"></circle><circle cx="5.2" cy="2.8" r="0.5"></circle><circle cx="7.7" cy="2.8" r="0.5"></circle><circle cx="10" cy="2.8" r="0.5"></circle>
+<circle cx="1.5" cy="4.3" r="0.5"></circle><circle cx="4" cy="4.3" r="0.5"></circle><circle cx="6.5" cy="4.3" r="0.5"></circle><circle cx="9" cy="4.3" r="0.5"></circle><circle cx="11" cy="4.3" r="0.5"></circle>
+<circle cx="2.7" cy="5.8" r="0.5"></circle><circle cx="5.2" cy="5.8" r="0.5"></circle><circle cx="7.7" cy="5.8" r="0.5"></circle><circle cx="10" cy="5.8" r="0.5"></circle>
+<circle cx="1.5" cy="7.3" r="0.5"></circle><circle cx="4" cy="7.3" r="0.5"></circle><circle cx="6.5" cy="7.3" r="0.5"></circle><circle cx="9" cy="7.3" r="0.5"></circle><circle cx="11" cy="7.3" r="0.5"></circle>
+<circle cx="2.7" cy="8.8" r="0.5"></circle><circle cx="5.2" cy="8.8" r="0.5"></circle><circle cx="7.7" cy="8.8" r="0.5"></circle><circle cx="10" cy="8.8" r="0.5"></circle>
+<circle cx="1.5" cy="9.6" r="0.5"></circle><circle cx="4" cy="9.6" r="0.5"></circle><circle cx="6.5" cy="9.6" r="0.5"></circle><circle cx="9" cy="9.6" r="0.5"></circle><circle cx="11" cy="9.6" r="0.5"></circle>
+</g>
+</svg></a><a class="lang-flag" data-lang="zh" href="../zh/laminate-clinic.html" title="中文"><svg height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 30 20" width="100%"><rect fill="#de2910" height="20" width="30"></rect>
+<g fill="#ffde00">
+<polygon points="5.00,1.80 5.50,3.31 7.09,3.32 5.81,4.26 6.29,5.78 5.00,4.85 3.71,5.78 4.19,4.26 2.91,3.32 4.50,3.31"></polygon>
+<polygon points="10.27,1.25 10.26,1.83 10.80,2.03 10.24,2.19 10.22,2.77 9.89,2.29 9.34,2.45 9.69,1.99 9.37,1.51 9.91,1.70"></polygon>
+<polygon points="11.00,3.20 11.18,3.75 11.76,3.75 11.29,4.10 11.47,4.65 11.00,4.31 10.53,4.65 10.71,4.10 10.24,3.75 10.82,3.75"></polygon>
+<polygon points="10.79,5.53 11.11,6.01 11.67,5.86 11.31,6.32 11.62,6.80 11.08,6.60 10.71,7.05 10.74,6.47 10.20,6.26 10.76,6.10"></polygon>
+<polygon points="8.90,7.31 9.33,7.69 9.84,7.41 9.60,7.94 10.03,8.33 9.46,8.27 9.22,8.80 9.09,8.23 8.52,8.17 9.02,7.87"></polygon>
+</g>
+</svg></a><a class="lang-flag active" data-lang="ja" href="../ja/laminate-clinic.html" title="日本語"><svg height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 30 20" width="100%"><rect fill="#fff" height="20" width="30"></rect>
+<circle cx="15" cy="10" fill="#bc002d" r="12"></circle>
+</svg></a><a class="lang-flag" data-lang="ru" href="../ru/laminate-clinic.html" title="Русский"><svg height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 30 20" width="100%">
+<rect fill="#fff" height="6.667" width="30" y="0"></rect>
+<rect fill="#0039a6" height="6.667" width="30" y="6.667"></rect>
+<rect fill="#d52b1e" height="6.667" width="30" y="13.333"></rect>
+</svg></a></div>
+<div id="app">
+<header id="header">
+<div id="header_container">
+<div id="header_menu">
+<div class="menu-wrap">
+<img src="../images/desktop/icon-menu.svg"/>
+<p>メニュー</p>
+</div>
+</div>
+<div id="header_logo">
+<!-- <a href="http://0.0.0.0:8080"> -->
+<a href="index.html">
+<img alt="BOAデンタルクリニック" src="../images/desktop/logo.svg"/>
+</a>
+<div id="hanja-name">保牙歯科</div></div>
+<div class="detail-menu">
+<img class="close-detail-menu" src="../images/desktop/icon-close.svg"/>
+<div class="detail-menu-wrap">
+<div class="detail-menu-area">
+<span class="menu-category">About us</span>
+<a href="vision.html"><span>BOAのビジョンと理念</span></a>
+<a href="staff.html"><span>BOAのFamily</span></a>
+<a href="#direction_wrap_title_test" id="direction"><span>アクセス</span></a>
+</div>
+<div class="detail-menu-area">
+<span class="menu-category">Veneer Laminate Clinic</span>
+<a href="laminate-clinic.html"><span>Veneer Laminate Clinic</span></a>
+</div>
+<div class="detail-menu-area">
+<span class="menu-category">BOA先端デジタルクリニック</span>
+<a href="digital-guide-implant.html"><span>デジタルガイドインプラント</span></a>
+<a href="digital-tooth-correction.html"><span>デジタル歯科矯正</span></a>
+<a href="high-tech-equipment.html"><span>デジタル先端機器</span></a><br/>
+<a href="digital-mouthpiece.html"><span>デジタルマウスピース</span></a>
+</div>
+<div class="detail-menu-area">
+<span class="menu-category">生涯予防管理クリニック</span>
+<a href="prevent-care.html"><span>歯科治療の重要性</span></a>
+<a href="prevent-program.html"><span>BOA予防管理プログラム</span></a><br/>
+<a href="airflow-and-perioflow.html"><span>エアフローとペリオフロー</span></a>
+</div>
+<div class="detail-menu-area">
+<span class="menu-category">高齢者保険インプラント</span>
+<a href="senior-insurance-implant.html"><span>高齢者保険インプラント</span></a>
+<a href="senior-tooth-correction.html"><span>シニア矯正</span></a>
+<a href="senior-toothcare-program.html"><span>高齢者口腔管理プログラム</span></a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="floating_menu_wrap">
+<a href="http://pf.kakao.com/_xdDYbV/chat" target="_blank" title="相談チャット"><img alt="相談チャット" src="../images/desktop/btn_float_kakao.png"/></a>
+<a class="naver-i18n-wrap" href="https://booking.naver.com/booking/13/bizes/290257" target="_blank" title="診療予約"><img alt="診療予約" src="../images/desktop/btn_float_naver.png"/><span class="naver-i18n-label">予約</span></a>
+<a href="https://www.youtube.com/@2809TV" target="_blank" title="YouTube"><img alt="YouTube" src="../images/desktop/btn_float_youtube.png"/></a>
+<a onclick="location.href='index.html#direction_wrap'" title="アクセス"><img alt="アクセス" src="../images/desktop/btn_float_direction.png"/></a>
+</div>
+<!-- Site #banner reused as the page hero (PDF p.1 cover design) -->
+<div class="lam-banner" id="banner" style="background-image: url('../images/desktop/laminate/hero-clinic.jpg')">
+<div class="lam-banner-kicker">BOA DENTAL CLINIC</div>
+<div class="lam-banner-body">
+<div class="tag">Boa Dental Clinic's Veneers: Preserving Your Natural Teeth</div>
+<h1>Laminate Clinic</h1>
+<div class="tags"><span>Minimal-Prep Veneers</span><span>No-prep Veneers</span></div>
+</div>
+</div>
+<div class="container">
+<div id="page_path">
+<img src="../images/desktop/ic-small-home.svg"/>
+<span id="page_path_span"><a href="index.html">ホーム</a> &gt; <a href="laminate-clinic.html">ラミネートクリニック</a> &gt; <a href="">ポーセレンベニア</a></span>
+</div>
+
+<!-- ============================================================
+     Localized content. Layout & structure reproduce
+     "보아치과 라미네이트 영문.pdf" (6 slides).
+     Poster headings kept in English (as in the source PDF).
+     ============================================================ -->
+<div id="laminate_wrap">
+
+<!-- ===== SLIDE 2 : BOA PHILOSOPHY ===== -->
+<div class="lam-slide">
+<div class="lam-philo">
+<div class="lam-philo-main">
+<h2>BOA<br/>PHILOSOPHY</h2>
+<div class="lam-collage">
+<img class="c1" alt="BOA Dental Clinic interior" src="../images/desktop/laminate/philosophy-1.jpg"/>
+<img class="c2" alt="BOA Dental Clinic treatment room" src="../images/desktop/laminate/philosophy-2.jpg"/>
+<img class="c3" alt="BOA Dental Clinic consultation area" src="../images/desktop/laminate/philosophy-3.jpg"/>
+<img class="c4" alt="BOA Dental Clinic corridor" src="../images/desktop/laminate/philosophy-4.jpg"/>
+</div>
+<p class="essence">BOAの本質</p>
+<p class="essence-sub">表面的な美しさを超えた、一生涯の健康な笑顔</p>
+<p class="essence-body">審美的な改善だけを目的としません。一生涯続く、健康で信頼できる笑顔をつくります。</p>
+</div>
+<div class="lam-philo-side" style="background-image:url('../images/desktop/laminate/philosophy-instruments.jpg')">
+<div class="lam-pnum">
+<div class="pn">01</div>
+<h3>ノープレップまたは極めて少量の削合</h3>
+<p>歯のエナメル質は取り戻せません。不要な削合を徹底的に避け、自然な歯を守ります。</p>
+</div>
+<div class="lam-pnum">
+<div class="pn">02</div>
+<h3>歯ぐきの健康と歯周組織の保護</h3>
+<p>精密な適合により炎症や腫れを防ぎ、ベニア周囲の歯ぐきを長期的に健康に保ちます。</p>
+</div>
+<div class="lam-pnum">
+<div class="pn">03</div>
+<h3>誠実な1対1のオーダーメイド診療</h3>
+<p>カウンセリングからアフターケアまで一人の専門医が担当し、1日の診療人数を制限しています。</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== SLIDE 3 : MEDICAL SYSTEM ===== -->
+<div class="lam-slide">
+<h2 class="lam-title blue">MEDICAL SYSTEM</h2>
+<p class="lam-subhead">各分野の専門医による連携診療<br/>100%専門医による施術</p>
+
+<div class="lam-med-rows">
+<div class="lam-med-row"><span class="k">歯周科</span><span class="v">施術前後の歯ぐきケアで炎症を防ぎ、ベニアの寿命を最大限に延ばします。</span></div>
+<div class="lam-med-row"><span class="k">保存科</span><span class="v">ノープレップまたはミニマルプレップで、既存のむし歯もワンストップで治療します。</span></div>
+<div class="lam-med-row"><span class="k">矯正科</span><span class="v">精密な咬合分析で、将来のベニア破折を予防します。</span></div>
+</div>
+
+<div class="lam-med-photo">
+<img alt="BOA specialist explaining a treatment plan to the clinical team" src="../images/desktop/laminate/medical-system.jpg"/>
+<div class="cap">
+<h3>カウンセリングから最終装着まで、担当の専門医が直接行います。</h3>
+<p>20年以上の経験を持つ専門医が、カウンセリングから接着、アフターケアまで全工程を直接担当します。複数分野の専門医がケースごとに連携し、最適なオーダーメイドの治療計画を立て、自然な歯を最大限に保存しながら、自然で美しいベニアを仕上げます。</p>
+</div>
+</div>
+
+<div class="lam-doctors">
+<div class="lam-doc">
+<img alt="Prof. Young Ku" src="../images/desktop/about/staff_director4.png"/>
+<div class="lam-doc-name">Prof. Young Ku</div>
+<div class="lam-doc-role">歯周科専門医</div>
+</div>
+<div class="lam-doc">
+<img alt="Dr. Jung-hyun Park" src="../images/desktop/about/staff_director1.png"/>
+<div class="lam-doc-name">Dr. Jung-hyun Park</div>
+<div class="lam-doc-role">歯周科専門医</div>
+</div>
+<div class="lam-doc">
+<img alt="Dr. Hee-jun Kwon" src="../images/desktop/about/staff_director2.png"/>
+<div class="lam-doc-name">Dr. Hee-jun Kwon</div>
+<div class="lam-doc-role">保存科専門医</div>
+</div>
+<div class="lam-doc">
+<img alt="Dr. Ju-young Park" src="../images/desktop/about/staff_director3.png"/>
+<div class="lam-doc-name">Dr. Ju-young Park</div>
+<div class="lam-doc-role">矯正科専門医</div>
+</div>
+</div>
+</div>
+
+<!-- ===== SLIDE 4 : PORCELAIN VENEER TECHNOLOGY ===== -->
+<div class="lam-slide">
+<div class="lam-tech">
+<div class="lam-tech-hero">
+<img alt="Porcelain veneer close-up showing natural translucency" src="../images/desktop/laminate/veneer-macro.jpg"/>
+<h2>PORCELAIN VENEER TECHNOLOGY</h2>
+</div>
+<div class="lam-tech-grid">
+<div class="lam-tech-item">
+<img class="lam-tech-thumb" alt="0.1mm ultra-thin veneer shell" src="../images/desktop/laminate/tech-ultrathin.jpg"/>
+<h3>0.1mm 超薄型</h3>
+<p>歯の削合を最小限に抑える超薄型設計。</p>
+</div>
+<div class="lam-tech-item">
+<img class="lam-tech-thumb" alt="Personalized shade and layering" src="../images/desktop/laminate/tech-shade.jpg"/>
+<h3>オーダーメイドの色調とレイヤリング</h3>
+<p>一層ずつ重ねるレイヤリングで、深く自然な色合いを再現します。</p>
+</div>
+<div class="lam-tech-item">
+<img class="lam-tech-thumb" alt="Natural translucency of the veneers" src="../images/desktop/laminate/tech-translucency.jpg"/>
+<h3>自然な透明感</h3>
+<p>どんな照明でも違和感のない透明感。</p>
+</div>
+<div class="lam-tech-item">
+<img class="lam-tech-thumb" alt="Bonding agent applied to the enamel" src="../images/desktop/laminate/tech-bonding.jpg"/>
+<h3>強力な化学的接着</h3>
+<p>エナメル質との安定した接着で高い維持力を確保します。</p>
+</div>
+</div>
+<p class="lam-credit">ラミネート写真提供：オーラルデザイン・ソウル（歯科技工所）</p>
+</div>
+</div>
+
+<!-- ===== SLIDE 5 : EXPRESS JOURNEY + WARRANTY ===== -->
+<div class="lam-slide">
+<div class="lam-journey">
+<h2 class="lam-title blue">EXPRESS JOURNEY</h2>
+<p class="lam-subhead">海外からの患者様のためのBOAデンタルクリニックのプロセス</p>
+
+<div class="lam-timeline">
+<div class="lam-day">
+<span class="d">DAY 1</span><span class="h">来院・診断・治療開始</span>
+<p>ベニアの精密検査と口腔の健康チェック。<br/>微細な表面調整（麻酔不要）。</p>
+</div>
+<div class="lam-day">
+<span class="d">DAY 2–3</span><span class="h">観光</span>
+<p>オーダーメイドのベニア製作中は、韓国での滞在をお楽しみください。</p>
+</div>
+<div class="lam-day">
+<span class="d">DAY 4</span><span class="h">最終装着・完成</span>
+<p>高強度接着と精密な咬合チェック。<br/>オーダーメイドの笑顔が完成し、グローバル保証書を発行。</p>
+</div>
+<div class="lam-day">
+<span class="d">DAY 5</span><span class="h">新しい笑顔とともに出国 :)</span>
+</div>
+</div>
+
+<div class="lam-2visits">
+<h3>わずか2回の来院</h3>
+<span class="s">最小限の来院、最大限のゆとり</span>
+<p>治療をDAY 1とDAY 4の2回の来院に集約しました。オーダーメイドのベニア製作中は、ゆったりと韓国をお楽しみください。</p>
+</div>
+
+<div class="lam-warranty">
+<h3>安心のための公式グローバル保証</h3>
+<span class="s">江南で16年、BOAがあなたの笑顔に責任を持ちます</span>
+<p>BOAデンタルクリニックは江南で16年間診療を続けてきました。ご帰国後も安心いただけるよう、公式グローバル保証書と1年間の無償再製作を保証し、韓国へお越しの際はアフターケアを継続してご利用いただけます。</p>
+</div>
+</div>
+</div>
+
+<!-- CTA -->
+<div class="lam-slide lam-cta">
+<a class="primary" href="https://booking.naver.com/booking/13/bizes/290257" target="_blank">診療予約</a>
+<a class="ghost" href="http://pf.kakao.com/_xdDYbV/chat" target="_blank">相談チャット</a>
+</div>
+
+</div>
+<!-- ============================================================
+     Content end
+     ============================================================ -->
+
+</div>
+<footer id="footer">
+<div id="footer_logo">
+<!-- <a href="index.html"> -->
+<!-- <a href="http://0.0.0.0:8080"> -->
+<a href="index.html">
+<img alt="BOAデンタルクリニック" src="../images/desktop/footer_logo.svg"/>
+</a>
+</div>
+<div id="footer_description_wrap">
+<ul>
+<li>BOAデンタルクリニック</li><li>代表者：Park Jung-hyun</li><li>事業者登録番号：214-15-26506</li><br class="tablet"/><br class="mobile"/><li>ソウル特別市江南区テヘラン路107、4階 BOAデンタルクリニック</li>
+</ul>
+<ul>
+<li>電話番号：02-6925-0033</li><li>メール：boaclinic@naver.com</li>
+</ul>
+</div>
+<!-- 네이버 방문자수 조회 스크립트 -->
+<script src="//wcs.naver.net/wcslog.js" type="text/javascript"></script>
+<script type="text/javascript">
+    if(!wcs_add) var wcs_add = {};
+    wcs_add["wa"] = "8abffd301bf9b0";
+    if(window.wcs) {
+      wcs_do();
+    }
+    </script>
+</footer>
+</div>
+</body>
+<scirpt>
+<script src="../js/pages/header.js"></script>
+<script src="../js/pages/main.js"></script>
+<script>
+            function setResize() {
+                const vh = window.innerHeight * 0.01;
+                document.documentElement.style.setProperty("--vh", `${vh}px`);
+            }
+            setResize();
+            window.addEventListener("resize", setResize);
+        </script>
+</scirpt>
+</html>
